@@ -71,7 +71,7 @@ public class CreditCardForm extends RelativeLayout {
 		frame.addView(backView);
 		layout.addView(frame);
 
-		layout.setId(1);
+		layout.setId(R.id.layoutId);
 
 		TextView textHelp = new TextView(context);
 		textHelp.setText(getResources().getString(R.string.CreditCardNumberHelp));
